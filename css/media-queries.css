@@ -1,0 +1,44 @@
+/**========================
+  media-queries
+==========================*/
+.container {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 5px solid #6AC5AC;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+nav {
+  border: 5px solid #D64078;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  border: 5px solid #6AC5AC;
+}
+
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+
+  section {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}

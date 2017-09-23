@@ -1,0 +1,11 @@
+/**========================
+  box-model
+==========================*/
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 10px solid #6AC5AC;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
